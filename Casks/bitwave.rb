@@ -4,22 +4,22 @@ cask "bitwave" do
 
   on_macos do
     on_intel do
-      sha256 "100a48366810f2e490614cf5f0762cde3015911a61d3fa1d19fa7d1ab7a38568"
+      sha256 "5e092372728cc083fa604b22df14b6c1e6000798bade5954d9480c7f26e372f8"
       url "https://github.com/bitwave-io/bitwave-cli/releases/download/v#{version}/bitwave_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "03134553878e9995928469d5b4794f29e363a9d69cc6f0d14a7423b4b907f1fc"
+      sha256 "cfbaa0d1802cd9cea2460d15ddfdf26fe2f0401db2f588320b779c17b2d350db"
       url "https://github.com/bitwave-io/bitwave-cli/releases/download/v#{version}/bitwave_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "5c06ccfaec6fd2408a6191a0b233a0cdf32aafec196de6e667edfb5c649545fa"
+      sha256 "0bc3aa791851e733a8c6c0a9582cb2da765fca9dfe87e73a5e48fe0f49c66f35"
       url "https://github.com/bitwave-io/bitwave-cli/releases/download/v#{version}/bitwave_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "fc09b86f51a909c6816f3144a082cb6a31fb5bdc096169bd313db4d5191d1f99"
+      sha256 "df10ed33642d7cf7a499e29e85fdff43e3f137d5996ea70cd7ffc474fbff9229"
       url "https://github.com/bitwave-io/bitwave-cli/releases/download/v#{version}/bitwave_#{version}_linux_arm64.tar.gz"
     end
   end
